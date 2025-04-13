@@ -55,5 +55,5 @@ O foco principal está na **melhoria da métrica AUC (Área sob a Curva ROC)** e
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU_USUARIO/ifood-checkpoint.git
+git clone https://github.com/alansms/CP1_Front_End_-_Mobile_Deploy
 cd ifood-checkpoint
