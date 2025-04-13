@@ -1,0 +1,59 @@
+# 🛒 Checkpoint - Classificação de Clientes iFood com PyCaret
+
+## 🎯 Objetivo
+
+Este projeto tem como objetivo aplicar técnicas de Machine Learning supervisionado para **classificar clientes do iFood**, utilizando o framework **PyCaret**.  
+O foco principal está na **melhoria da métrica AUC (Área sob a Curva ROC)** em dados de teste, seguindo o roteiro proposto no checkpoint da disciplina.
+
+---
+
+## 📌 Etapas do Projeto
+
+### 1. Resumo
+- Projeto em grupo para classificação de clientes no Case iFood.
+- Utilização obrigatória do PyCaret com liberdade para ajustes e tuning.
+- Dataset fornecido durante as aulas.
+- Avaliação principal baseada em **AUC (ROC)**.
+- Entrega final em notebook `.ipynb` + `.pdf` + repositório GitHub.
+
+### 2. Carregamento e Análise Exploratória
+- Leitura do dataset com `pandas`.
+- Análise de estrutura (`info()`), estatísticas (`describe()`), nulos e correlações.
+- Visualizações com `seaborn` e `matplotlib`.
+
+### 3. Engenharia de Atributos
+- Normalização de colunas e valores categóricos (`normalize_df`).
+- Criação da variável `client_years` (tempo como cliente).
+- Remoção da coluna `id`.
+
+### 4. Modelagem com PyCaret
+- Setup com target `response`.
+- Comparação de modelos (`compare_models()`).
+- Tuning de hiperparâmetros (`tune_model()`).
+- Avaliação com gráficos (AUC, Matriz de Confusão).
+- Predição final com `predict_model()`.
+
+### 5. Análise e Interpretação
+- Comparação do AUC antes e depois do tuning.
+- Discussão sobre a importância das variáveis.
+- Verificação visual dos resultados com os plots gerados.
+
+---
+
+## 🧪 Bibliotecas Utilizadas
+
+- `pandas`
+- `numpy`
+- `seaborn`
+- `matplotlib`
+- `pycaret`
+- `scikit-learn`
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/ifood-checkpoint.git
+cd ifood-checkpoint
