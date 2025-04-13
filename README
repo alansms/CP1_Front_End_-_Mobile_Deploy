@@ -5,6 +5,9 @@
 Este projeto tem como objetivo aplicar técnicas de Machine Learning supervisionado para **classificar clientes do iFood**, utilizando o framework **PyCaret**.  
 O foco principal está na **melhoria da métrica AUC (Área sob a Curva ROC)** em dados de teste, seguindo o roteiro proposto no checkpoint da disciplina.
 
+Link do colab: https://colab.research.google.com/drive/12WIiTJC5Xfl8KuSo8ExaGFGS7hf4Fdut#scrollTo=z6XPgbqtvF8a
+
+
 ---
 
 ## 📌 Etapas do Projeto
